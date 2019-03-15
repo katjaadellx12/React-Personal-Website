@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet"
 const IndexPage = () => (
   <div>
     <Helmet>
-    <link rel="icon" type="image/jpg" href="icon.jpg"/>
+      <link rel="icon" type="image/jpg" href="icon.jpg"/>
       <title>Pranav | Home</title>
       <meta name="description" content="Welcome to my world"/>
       <meta name="author" content="Pranav Ambwani"/>
