@@ -1,12 +1,31 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { FaHeart } from 'react-icons/fa'
+import Wave from '../components/wave';
+import ReactTyped from '../components/typed';
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>Pranav Ambwani</h1>
+        <ReactTyped
+          strings={[
+            'I am a leader.',
+            'I am an innovator.',
+            'I am a developer.'
+          ]}
+        />
+        
+        <p>Made with <FaHeart className="HeartIcon"/> at USC</p>
+        <a href="https://drive.google.com/open?id=10b85Lw78GtSyl1-5fqA20A46BVUx-54X" target="_blank"><button>Resume</button></a>
+        <div className="Logos">
+          <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"><img src={require('../images/linkedin.svg')} width="50" /></a>
+          <a href="https://www.linkedin.com/in/pranavambwani" target="_blank"><img src={require('../images/gmail.svg')} width="50" /></a>
+          <a href="https://www.github.com/ambwani" target="_blank"><img src={require('../images/github.svg')} width="50" /></a>
+        </div>
+        <Wave/>
+      </div>
+    </div>
   </div>
 )
 
