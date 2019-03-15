@@ -14,10 +14,11 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'keywords', content: data.site.siteMetadata.keywords },
+        { name: 'image', content: data.site.siteMetadata.image },
       ]}
       link={[
         { rel: 'shortcut icon', type: 'image/x-icon', href: `${favicon}` },
-        { rel: 'icon', type: 'image/jpg', href: `${icon}` }
+        { rel: 'icon', type: 'image/jpg', href: `${icon}` },
       ]}
     />
     <Header />
