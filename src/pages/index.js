@@ -2,9 +2,19 @@ import React from 'react'
 import { FaHeart } from 'react-icons/fa'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <div>
+    <Helmet>
+      <title>Pranav | Home</title>
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="https://pranav.tech"/>
+      <meta property="og:site_name" content="https://pranav.tech"/>
+      <meta property="og:title" content="Welcome to my world" />
+      <meta property="og:image" content="https://i.imgur.com/zI5yBin.jpg"/>
+      <meta property="og:description" content="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design." />
+    </Helmet>
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Pranav Ambwani</h1>
