@@ -17,7 +17,7 @@ const IndexPage = () => (
         />
         
         <p>Made with <FaHeart className="HeartIcon"/> at USC</p>
-        <a href="https://drive.google.com/open?id=10b85Lw78GtSyl1-5fqA20A46BVUx-54X" target="_blank"><button>Resume</button></a>
+        <a href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing" target="_blank"><button>Resume</button></a>
         <div className="Logos">
           <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"><img src={require('../images/linkedin.svg')} width="50" /></a>
           <a href="https://www.linkedin.com/in/pranavambwani" target="_blank"><img src={require('../images/gmail.svg')} width="50" /></a>
