@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaHeart } from 'react-icons/fa'
-import Wave from '../components/wave';
-import ReactTyped from '../components/typed';
+import Wave from '../components/wave'
+import ReactTyped from '../components/typed'
 
 const IndexPage = () => (
   <div>
