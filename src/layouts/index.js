@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import favicon from '../images/favicon.ico'
+import icon from '../images/icon.jpg'
 
 import Header from '../components/header'
 import './index.css'
@@ -15,7 +16,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
       link={[
-        { rel: 'shortcut icon', type: 'image/x-icon', href: `${favicon}` }
+        { rel: 'shortcut icon', type: 'image/x-icon', href: `${favicon}` },
+        { rel: 'icon', type: 'image/jpg', href: `${icon}` }
       ]}
     />
     <Header />
