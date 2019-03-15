@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://kind-williams-67c1d4.netlify.com/* http://pranav.tech/:splat 301!
