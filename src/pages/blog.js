@@ -6,13 +6,8 @@ import { Helmet } from 'react-helmet'
 const Blog = () => (
     <div>
         <Helmet>
+            <link rel="icon" type="image/jpg" href="assets/icon.jpg"/>
             <title>Pranav | Blog</title>
-            <meta property="og:type" content="blog"/>
-            <meta property="og:url" content="https://pranav.tech"/>
-            <meta property="og:site_name" content="https://pranav.tech"/>
-            <meta property="og:title" content="Welcome to my blog" />
-            <meta property="og:image" content="https://i.imgur.com/zI5yBin.jpg"/>
-            <meta property="og:description" content="I talk about my experiences with product management, development, etc." />
         </Helmet>
         <CardGroup>
             <Card
