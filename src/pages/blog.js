@@ -22,7 +22,7 @@ const Blog = () => (
                 date="9 Nov 2018"
                 image="https://www.gannett-cdn.com/presto/2018/11/05/USAT/ded54afa-1cc4-4918-8717-0663e3314467-VPCTECH_JEFFERSON_GRAHAM_AMAZON_DESK_THUMB.jpg?width=534&height=401&fit=bounds&auto=webp"/>
             </Link> 
-            <a href="https://minghsiehee.usc.edu/2018/10/how-thinking-like-an-electrical-engineer-changed-my-life/"><Card
+            <a href="https://minghsiehee.usc.edu/2018/10/how-thinking-like-an-electrical-engineer-changed-my-life/" target="_blank"><Card
                 title="How Thinking like an Electrical Engineer Changed My Life"
                 date="12 Nov 2018"
                 image="https://2qfdd1ot4k08vlhu482uv913-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Pranav-Top-2-1200x783.jpg"/>

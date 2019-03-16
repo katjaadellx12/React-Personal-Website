@@ -14,10 +14,12 @@ export default function BlogPost(props) {
             <div className="SubSection">
                 <h6>{props.date}</h6>
 
-                <div className="Buttons">
+                <div className="Buttons">           
                     
-                    <Link to={id === 1 ? `/blog` : `/posts/post${id - 1}`|| id === 4 ? `/posts/post${id - 2}`: `/posts/post${id - 1}`}><button>Prev</button></Link>
-                    
+                    <Link to={id === 1 ? `/blog`
+                        : id === 4 ? `/posts/post${id - 2}`
+                        : `/posts/post${id - 1}`}><button>Prev</button></Link>
+
                     <Link to={id === 2 ? `/posts/post${id + 2}`
                         : id === 6 ? `/posts/post${id = 1}`
                         : `/posts/post${id + 1}`}><button>Next</button></Link>

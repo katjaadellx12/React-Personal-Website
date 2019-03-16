@@ -146,7 +146,15 @@ a {
   background: #2c3e50;
 }
 
-.dark h1, .dark p, .dark div {
+.dark h1 {
+  color: white;
+}
+
+.dark p {
+  color: white;
+}
+
+.dark div {
   color: white;
 }
 
