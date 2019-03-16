@@ -2,7 +2,7 @@ import React from 'react'
 import { FaHeart } from 'react-icons/fa'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
-import { Helmet } from "react-helmet"
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => (
   <div>
@@ -30,7 +30,6 @@ const IndexPage = () => (
             'I am a developer.'
           ]}
         />
-        
         <p>Made with <FaHeart className="HeartIcon"/> at USC</p>
         <a href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing" target="_blank"><button>Resume</button></a>
         <div className="Logos">

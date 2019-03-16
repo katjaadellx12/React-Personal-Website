@@ -32,10 +32,11 @@ a {
 
 .Hero h1 {
   margin: 0;
+  padding: 0;
   color: black;
   font-size: 60px;
   line-height: 1.2;
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
@@ -44,7 +45,6 @@ a {
   color: #FD777F;
   animation: HeroAnimation;
   animation-duration: 3s;
-  animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -116,7 +116,7 @@ a {
 @keyframes HeroAnimation {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;
