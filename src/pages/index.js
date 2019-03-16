@@ -17,7 +17,7 @@ const IndexPage = () => (
       <meta property="og:url" content="https://pranav.tech"/>
       <meta property="og:site_name" content="https://pranav.tech"/>
       <meta property="og:title" content="Welcome to my world" />
-      <meta property="og:image" content="https://i.imgur.com/zI5yBin.jpg"/>
+      <meta property="og:image" content="https://i.imgur.com/aPgxAdJ.png"/>
       <meta property="og:description" content="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design." />
     </Helmet>
     
