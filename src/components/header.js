@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './header.css'
 import StripeCheckout from 'react-stripe-checkout'
+import ToggleDark from './toggle';
 
 class Header extends React.Component {
 
@@ -52,6 +53,7 @@ class Header extends React.Component {
     return (
       <div className={ this.state.hasUserScrolled ? "Header HeaderScrolled": "Header" }>
         <div className="HeaderGroup">
+          <ToggleDark/>
           <Link to="/">Home</Link>
           <Link to="/blog">Blog</Link>
           <StripeCheckout

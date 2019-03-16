@@ -20,6 +20,7 @@ const IndexPage = () => (
       <meta property="og:image" content="https://i.imgur.com/zI5yBin.jpg"/>
       <meta property="og:description" content="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design." />
     </Helmet>
+    
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Pranav Ambwani</h1>
