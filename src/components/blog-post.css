@@ -34,11 +34,25 @@ button {
 .SubSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
     justify-items: center;
 }
 
 .Buttons {
     justify-self: flex-end;
     margin: 0 24px;
+}
+
+@media (max-width: 640px) {
+    .Buttons {
+        margin-right: 30px;
+    }
+
+    button {
+        padding: 4px 9px;
+    }
+
+    h6 {
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
 }
