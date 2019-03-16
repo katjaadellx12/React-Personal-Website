@@ -146,18 +146,14 @@ a {
   background: #2c3e50;
 }
 
-.dark h1 {
-  color: white;
-}
-
-.dark p {
-  color: white;
-}
-
-.dark div {
+.dark h1, .dark p, .dark div {
   color: white;
 }
 
 .dark path {
   fill: white;
+}
+
+.dark h6, a {
+  color: #78e08f;
 }
