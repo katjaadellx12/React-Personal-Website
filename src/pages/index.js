@@ -3,23 +3,16 @@ import { FaHeart } from 'react-icons/fa'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import { Helmet } from 'react-helmet'
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <div>
-    <Helmet>
-      <link rel="icon" type="image/jpg" href="icon.jpg"/>
-      <title>Pranav | Home</title>
-      <meta name="description" content="Welcome to my world"/>
-      <meta name="author" content="Pranav Ambwani"/>
-      <meta name="keywords" content="pranav, ambwani, pranav ambwani, Pranav Ambwani, Pranav, Ambwani, LG Electronics, LavaLab,USC, American Express, IBM, Product Management, Program Management, Technical Product Management, Product, product, management, software developer, software, developer, javascript, c++"/>
-      <meta name="robots" content="index, follow"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:url" content="https://pranav.tech"/>
-      <meta property="og:site_name" content="https://pranav.tech"/>
-      <meta property="og:title" content="Welcome to my world" />
-      <meta property="og:image" content="https://i.imgur.com/aPgxAdJ.png"/>
-      <meta property="og:description" content="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design." />
-    </Helmet>
+    <SEO
+      title="Pranav | Home"
+      description="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design."
+      keywords="pranav, ambwani, pranav ambwani, Pranav Ambwani, Pranav, Ambwani, LG Electronics, LavaLab,USC, American Express, IBM, Product Management, Program Management, Technical Product Management, Product, product, management, software developer, software, developer, javascript, c++"
+      image="https://i.imgur.com/aPgxAdJ.png"
+    />
     
     <div className="Hero">
       <div className="HeroGroup">
