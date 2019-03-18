@@ -1,6 +1,7 @@
 import React from 'react'
 import './blog-post.css'
 import Link from 'gatsby-link'
+import SEO from '../components/seo'
 
 export default function BlogPost(props) {
 
@@ -10,6 +11,9 @@ export default function BlogPost(props) {
     // nature of blog posts
     return (
         <div>
+            <SEO
+                title={`Pranav | Blog ${props.id}`}
+            />
             <h1>{props.title}</h1>
             <div className="SubSection">
                 <h6>{props.date}</h6>
