@@ -28,7 +28,9 @@ const Layout = ({ children, data }) => (
         { rel: 'shortcut icon', type: 'image/x-icon', href: `${favicon}` },
         { rel: 'icon', type: 'image/jpg', href: `${icon}` },
       ]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <Header />
     {children()}
   </div>
