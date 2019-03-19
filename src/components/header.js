@@ -55,8 +55,12 @@ class Header extends React.Component {
       >
         <div className="HeaderGroup">
           <ToggleDark />
-          <Link to="/">Home</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/" rel="noreferrer">
+            Home
+          </Link>
+          <Link to="/blog" rel="noreferrer">
+            Blog
+          </Link>
           {/* <StripeCheckout
             amount={5000}
             image="https://i.imgur.com/zI5yBin.jpg"

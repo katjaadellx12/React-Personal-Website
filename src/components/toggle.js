@@ -7,9 +7,8 @@ class ToggleDark extends React.Component {
     return (
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
-          <label for="toggleMode" className="switch">
+          <label className="switch">
             <input
-              id="toggleMode"
               type="checkbox"
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}

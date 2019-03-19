@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #5334f5;
+  color: #fc427b;
   font-weight: 600;
 }
 
@@ -139,6 +139,17 @@ a {
     font-size: 18px;
     padding: 10px 20px;
   }
+
+  .Logos img {
+    width: 40px;
+  }
+
+  .Logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+  }
 }
 
 .dark {
@@ -161,7 +172,6 @@ a {
   fill: white;
 }
 
-.dark h6,
-a {
+.dark h6 {
   color: #78e08f;
 }
