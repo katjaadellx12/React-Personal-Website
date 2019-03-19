@@ -1,0 +1,7 @@
+# manually set redirects
+/home /
+https://ambwani.github.io/* /
+https://pranavambwani.com/* /
+
+# Redirect default Netlify subdomain to primary domain
+https://kind-williams-67c1d4.netlify.com/* https://pranav.tech/:splat 301!
