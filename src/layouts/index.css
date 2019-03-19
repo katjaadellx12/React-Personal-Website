@@ -38,17 +38,16 @@ a {
   color: black;
   font-size: 60px;
   line-height: 1.2;
-  animation: HeroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
   font-size: 30px;
   line-height: 1.5;
   color: #fd777f;
-  animation: HeroAnimation;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.AnimationWrapper {
+  animation: HeroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Logos {

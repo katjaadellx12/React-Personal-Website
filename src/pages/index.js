@@ -15,8 +15,8 @@ const IndexPage = () => (
 
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Pranav Ambwani</h1>
-        <p>
+        <div className="AnimationWrapper">
+          <h1>Pranav Ambwani</h1>
           <ReactTyped
             strings={[
               'I am a leader.',
@@ -24,10 +24,10 @@ const IndexPage = () => (
               'I am a developer.',
             ]}
           />
-        </p>
-        <p>
-          Made with <FaHeart className="HeartIcon" /> at USC
-        </p>
+          <p>
+            Made with <FaHeart className="HeartIcon" /> at USC
+          </p>
+        </div>
         <a
           href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
           target="_blank"
