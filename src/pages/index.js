@@ -29,18 +29,35 @@ const IndexPage = () => (
         <a
           href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <button>Resume</button>
         </a>
         <div className="Logos">
           <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!">
-            <img src={require('../images/linkedin.svg')} width="50" />
+            <img
+              src={require('../images/gmail.svg')}
+              width="50"
+              alt="Gmail logo"
+            />
           </a>
           <a href="https://www.linkedin.com/in/pranavambwani" target="_blank">
-            <img src={require('../images/gmail.svg')} width="50" />
+            <img
+              src={require('../images/linkedin.svg')}
+              width="50"
+              alt="LinkedIn logo"
+            />
           </a>
-          <a href="https://www.github.com/ambwani" target="_blank">
-            <img src={require('../images/github.svg')} width="50" />
+          <a
+            href="https://www.github.com/ambwani"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={require('../images/github.svg')}
+              width="50"
+              alt="GitHub logo"
+            />
           </a>
         </div>
         <Wave />
