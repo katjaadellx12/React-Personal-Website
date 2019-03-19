@@ -16,13 +16,15 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Pranav Ambwani</h1>
-        <ReactTyped
-          strings={[
-            'I am a leader.',
-            'I am an innovator.',
-            'I am a developer.',
-          ]}
-        />
+        <p>
+          <ReactTyped
+            strings={[
+              'I am a leader.',
+              'I am an innovator.',
+              'I am a developer.',
+            ]}
+          />
+        </p>
         <p>
           Made with <FaHeart className="HeartIcon" /> at USC
         </p>
