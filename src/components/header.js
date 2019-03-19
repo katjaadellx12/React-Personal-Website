@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './header.css'
-import StripeCheckout from 'react-stripe-checkout'
 import ToggleDark from './toggle'
 
 class Header extends React.Component {
@@ -61,14 +60,6 @@ class Header extends React.Component {
           <Link to="/blog" rel="noreferrer">
             Blog
           </Link>
-          {/* <StripeCheckout
-            amount={5000}
-            image="https://i.imgur.com/zI5yBin.jpg"
-            token={this.handlePurchase}  
-            stripeKey="pk_test_9s8hGtJ43DA8TkAwLyz7zHpw"
-          >
-              <button className={this.state.hasUserScrolled ? "Services ButtonOnScroll": "Services"}>Services</button>
-          </StripeCheckout> */}
         </div>
       </div>
     )
