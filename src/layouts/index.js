@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import favicon from '../images/favicon.ico'
 import icon from '../images/icon.jpg'
-
 import Header from '../components/header'
 import './index.css'
 import SEO from '../components/seo'

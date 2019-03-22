@@ -46,7 +46,11 @@ const IndexPage = () => (
               alt="Gmail logo"
             />
           </a>
-          <a href="https://www.linkedin.com/in/pranavambwani" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/pranavambwani"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={require('../images/linkedin.svg')}
               width="50"

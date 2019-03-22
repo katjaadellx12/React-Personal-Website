@@ -27,24 +27,6 @@ class Header extends React.Component {
     }
   }
 
-  handlePurchase = token => {
-    const amount = 50
-    const description = 'My awesome services!'
-
-    const bodyObject = {
-      tokenId: token.id,
-      email: token.email,
-      name: token.name,
-      description,
-      amount,
-    }
-
-    fetch('http://localhost:9000/stripe-payments', {
-      method: 'POST',
-      body: JSON.stringify(bodyObject),
-    })
-  }
-
   render() {
     return (
       <div

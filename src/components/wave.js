@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Wave() {
   return (
-    <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
+    <svg width="100%" height="172" viewBox="0 0" fill="none">
       <path fill="#FD777F">
         <animate
           repeatCount="indefinite"
