@@ -28,7 +28,7 @@ const IndexPage = () => (
             ]}
           />
           <p>
-            Made with <FaHeart className="HeartIcon" /> at USC, Los Angeles
+            Made with <FaHeart className="HeartIcon" /> at USC
           </p>
         </div>
         <a
