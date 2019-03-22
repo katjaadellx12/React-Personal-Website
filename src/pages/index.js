@@ -18,19 +18,17 @@ const IndexPage = () => (
     </Helmet>
     <div className="Hero">
       <div className="HeroGroup">
-        <div className="AnimationWrapper">
-          <h1>Pranav Ambwani</h1>
-          <ReactTyped
-            strings={[
-              'I am a leader.',
-              'I am an innovator.',
-              'I am a developer.',
-            ]}
-          />
-          <p>
-            Made with <FaHeart className="HeartIcon" /> at USC
-          </p>
-        </div>
+        <h1>Pranav Ambwani</h1>
+        <ReactTyped
+          strings={[
+            'I am a leader.',
+            'I am an innovator.',
+            'I am a developer.',
+          ]}
+        />
+        <p>
+          Made with <FaHeart className="HeartIcon" /> at USC
+        </p>
         <a
           href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
           target="_blank"
@@ -38,7 +36,7 @@ const IndexPage = () => (
         >
           <button>Résumé</button>
         </a>
-        <div className="Logos">
+        <div className="Logos Animation">
           <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!">
             <img
               src={require('../images/gmail.svg')}

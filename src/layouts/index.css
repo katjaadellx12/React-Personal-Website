@@ -47,8 +47,8 @@ a {
   font-weight: 600;
 }
 
-.AnimationWrapper {
-  animation: HeroAnimation 0.8s cubic-bezier(0.4, 0, 0, 1.34);
+.Animation {
+  animation: HeroAnimation 2s cubic-bezier(0.4, 0, 0, 1.34);
 }
 
 .Logos {
