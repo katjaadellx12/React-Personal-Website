@@ -18,17 +18,19 @@ const IndexPage = () => (
     </Helmet>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1 className="AnimationWrapper">Pranav Ambwani</h1>
-        <ReactTyped
-          strings={[
-            'I am a leader.',
-            'I am an innovator.',
-            'I am a developer.',
-          ]}
-        />
-        <p className="AnimationWrapper">
-          Made with <FaHeart className="HeartIcon" /> at USC, Los Angeles
-        </p>
+        <div className="AnimationWrapper">
+          <h1>Pranav Ambwani</h1>
+          <ReactTyped
+            strings={[
+              'I am a leader.',
+              'I am an innovator.',
+              'I am a developer.',
+            ]}
+          />
+          <p>
+            Made with <FaHeart className="HeartIcon" /> at USC, Los Angeles
+          </p>
+        </div>
         <a
           href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
           target="_blank"
