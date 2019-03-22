@@ -1,13 +1,9 @@
 import React from 'react'
 import Blog from '../../components/blog-post'
-import { Helmet } from 'react-helmet'
 
 export default function post2() {
   return (
     <div>
-      <Helmet>
-        <link rel="canonical" href="https://pranav.tech/blog" />
-      </Helmet>
       <Blog
         id={2}
         title="Amazon's HQ2 Move and Possible Motives"

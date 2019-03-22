@@ -1,13 +1,9 @@
 import React from 'react'
 import Blog from '../../components/blog-post'
-import { Helmet } from 'react-helmet'
 
 export default function post6() {
   return (
     <div>
-      <Helmet>
-        <link rel="canonical" href="https://pranav.tech/blog" />
-      </Helmet>
       <Blog
         id={6}
         title="What Is Your Favorite Product, and Why?"
