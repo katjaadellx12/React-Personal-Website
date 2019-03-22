@@ -36,7 +36,7 @@ const IndexPage = () => (
         >
           <button>Résumé</button>
         </a>
-        <div className="Logos Animation">
+        <div className="Logos">
           <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!">
             <img
               src={require('../images/gmail.svg')}

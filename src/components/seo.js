@@ -46,4 +46,8 @@ function SEO({ description, lang, keywords, title, image }) {
   )
 }
 
+SEO.defaultProps = {
+  lang: `en`,
+}
+
 export default SEO
