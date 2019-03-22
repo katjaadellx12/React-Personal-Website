@@ -7,7 +7,6 @@ import Link from 'gatsby-link'
 const Blog = () => (
   <div>
     <Helmet>
-      <html lang="en" />
       <link rel="icon" type="image/jpg" href="assets/icon.jpg" />
       <title>Pranav | Blog</title>
     </Helmet>

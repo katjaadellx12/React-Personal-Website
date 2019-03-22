@@ -33,7 +33,7 @@ export default class ReactTyped extends Component {
     return (
       <TypeWrap>
         <span
-          // style={{ whiteSpace: 'pre' }}
+          style={{ whiteSpace: 'pre' }}
           ref={el => {
             this.el = el
           }}
