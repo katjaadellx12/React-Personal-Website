@@ -8,7 +8,6 @@ const Blog = () => (
   <div>
     <Helmet>
       <link rel="icon" type="image/jpg" href="assets/icon.jpg" />
-      <link rel="canonical" href="https://pranav.tech" />
       <title>Pranav | Blog</title>
     </Helmet>
     <CardGroup>

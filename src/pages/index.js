@@ -3,6 +3,7 @@ import { FaHeart } from 'react-icons/fa'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import SEO from '../components/seo'
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => (
   <div>
@@ -12,7 +13,9 @@ const IndexPage = () => (
       keywords="pranav, ambwani, pranav ambwani, Pranav Ambwani, Pranav, Ambwani, LG Electronics, LavaLab,USC, American Express, IBM, Product Management, Program Management, Technical Product Management, Product, product, management, software developer, software, developer, javascript, c++"
       image="https://i.imgur.com/aPgxAdJ.png"
     />
-
+    <Helmet>
+      <link rel="canonical" href="https://pranav.tech" />
+    </Helmet>
     <div className="Hero">
       <div className="HeroGroup">
         <div className="AnimationWrapper">

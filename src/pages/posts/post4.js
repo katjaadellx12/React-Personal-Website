@@ -1,9 +1,13 @@
 import React from 'react'
 import Blog from '../../components/blog-post'
+import { Helmet } from 'react-helmet'
 
 export default function post4() {
   return (
     <div>
+      <Helmet>
+        <link rel="canonical" href="https://pranav.tech/blog" />
+      </Helmet>
       <Blog
         id={4}
         title="Waymo Launch - What This Means for Uber and Lyft"
