@@ -14,6 +14,10 @@ function SEO({ description, lang, keywords, title, image }) {
           content: `yYiC-PlzGnCf6X0kj0ukm-uazDmWwu-GNdRHBhAMKqQ`,
         },
         {
+          name: `author`,
+          content: `Pranav Ambwani`,
+        },
+        {
           name: `description`,
           content: description,
         },
