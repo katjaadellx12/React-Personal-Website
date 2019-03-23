@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaHeart } from 'react-icons/fa'
+import { FaHeart, FaRegEnvelope, FaLinkedin, FaSpotify } from 'react-icons/fa'
+import { GoMarkGithub } from 'react-icons/go'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import SEO from '../components/seo'
@@ -11,7 +12,7 @@ const IndexPage = () => (
       title="Pranav | Home"
       description="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design."
       keywords="pranav, ambwani, pranav ambwani, Pranav Ambwani, Pranav, Ambwani, LG Electronics, LavaLab,USC, American Express, IBM, Product Management, Program Management, Technical Product Management, Product, product, management, software developer, software, developer, javascript, c++"
-      image="https://i.imgur.com/aPgxAdJ.png"
+      image="https://i.imgur.com/A29myzy.png"
     />
     <Helmet>
       <link rel="canonical" href="https://pranav.tech" />
@@ -38,38 +39,26 @@ const IndexPage = () => (
         </a>
         <div className="Logos">
           <a href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!">
-            <img
-              src={require('../images/gmail.svg')}
-              width="50"
-              alt="Gmail logo"
-            />
+            <FaRegEnvelope />
           </a>
           <a
             href="https://www.linkedin.com/in/pranavambwani"
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={require('../images/linkedin.svg')}
-              width="50"
-              alt="LinkedIn logo"
-            />
+            <FaLinkedin />
           </a>
           <a
             href="https://www.github.com/ambwani"
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={require('../images/github.svg')}
-              width="50"
-              alt="GitHub logo"
-            />
+            <GoMarkGithub />
           </a>
         </div>
-        <Wave />
       </div>
     </div>
+    <Wave />
   </div>
 )
 
