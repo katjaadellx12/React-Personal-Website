@@ -34,6 +34,7 @@ const IndexPage = () => (
           href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
+          alt="link-to-email"
         >
           <button>Résumé</button>
         </a>
@@ -45,6 +46,7 @@ const IndexPage = () => (
             href="https://www.linkedin.com/in/pranavambwani"
             target="_blank"
             rel="noreferrer"
+            alt="link-to-linkedin"
           >
             <FaLinkedin />
           </a>
@@ -52,6 +54,7 @@ const IndexPage = () => (
             href="https://www.github.com/ambwani"
             target="_blank"
             rel="noreferrer"
+            alt="link-to-github"
           >
             <GoMarkGithub />
           </a>
