@@ -10,7 +10,7 @@ const IndexPage = () => (
   <div>
     <SEO
       title="Pranav | Home"
-      description="Check out the website that I coded from scratch leveraging several frameworks to ensure a simple, yet elegant design."
+      description="A blazing fast website that I coded from scratch leveraging several frameworks like React to ensure a simple, yet elegant design."
       keywords="pranav, ambwani, pranav ambwani, Pranav Ambwani, Pranav, Ambwani, LG Electronics, LavaLab,USC, American Express, IBM, Product Management, Program Management, Technical Product Management, Product, product, management, software developer, software, developer, javascript, c++"
       image="https://i.imgur.com/A29myzy.png"
     />
