@@ -19,7 +19,7 @@ module.exports = {
           allSitePage.edges.map(edge => {
             let path = edge.node.path
             let priority = 0.5
-            if (path === '/') {
+            if (path.match(/^\/$/)) {
               priority = 1.0
             } else if (path.match(/blog/)) {
               priority = 0.6

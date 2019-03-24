@@ -9,6 +9,14 @@ body {
   line-height: 1.3;
 }
 
+/* Override default text selection color */
+::selection {
+  background: rgba(154, 236, 219, 0.5); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(154, 236, 219, 0.5); /* Gecko Browsers */
+}
+
 a {
   text-decoration: none;
   color: #fc427b;
