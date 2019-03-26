@@ -5,6 +5,7 @@ import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import SEO from '../components/seo'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 const IndexPage = () => (
   <div>
@@ -30,14 +31,9 @@ const IndexPage = () => (
         <p>
           Made with <FaHeart className="HeartIcon" /> at USC
         </p>
-        <a
-          href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="link-to-resume"
-        >
+        <Link to="/resume">
           <button>Résumé</button>
-        </a>
+        </Link>
         <div className="Logos">
           <a
             href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"
