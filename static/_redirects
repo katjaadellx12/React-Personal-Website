@@ -1,6 +1,7 @@
 # manually set redirects
 /home /
 /blog/* /posts/:splat
+/projects/spot-on-for-spotify https://spot-on.netlify.com/
 
 # Redirect default Netlify subdomain to primary domain
 https://kind-williams-67c1d4.netlify.com/* https://pranav.tech/:splat 301!
