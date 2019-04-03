@@ -2,11 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 import resumeSvg from '../images/Resume.svg'
 import SEO from '../components/seo'
+import Helmet from 'react-helmet'
 
 const Resume = () => (
   <ResumeContainer>
     <SEO title="Pranav | Résumé" image={resumeSvg} />
     <img src={resumeSvg} />
+    <Helmet>
+      <link rel="icon" href={resumeSvg} type="image/svg+xml" />
+    </Helmet>
   </ResumeContainer>
 )
 
