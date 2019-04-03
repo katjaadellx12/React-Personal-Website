@@ -181,10 +181,6 @@ a {
   color: white;
 }
 
-.dark div {
-  border-top: none;
-}
-
 .dark path {
   fill: white;
 }
@@ -197,8 +193,4 @@ a {
 
 .dark h6 {
   color: #78e08f;
-}
-
-.dark .Company {
-  color: white;
 }

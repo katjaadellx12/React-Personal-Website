@@ -31,13 +31,9 @@ const IndexPage = () => (
         <p>
           Made with <FaHeart className="HeartIcon" /> at USC
         </p>
-        <a
-          href="https://drive.google.com/file/d/17iAVf-lmc6H3tzY6yJGCnmaKpoTBRpBV/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <Link to="/resume">
           <button>Résumé</button>
-        </a>
+        </Link>
         <div className="Logos">
           <a
             href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"

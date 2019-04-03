@@ -21,6 +21,8 @@ module.exports = {
             let priority = 0.5
             if (path.match(/^\/$/)) {
               priority = 1.0
+            } else if (path.match(/resume/)) {
+              priority = 0.8
             } else if (path.match(/blog/)) {
               priority = 0.6
             } else {
