@@ -39,8 +39,8 @@ class Header extends React.Component {
           <Link to="/" rel="noreferrer">
             Home
           </Link>
-          <Link to="/blog" rel="noreferrer">
-            Blog
+          <Link to="/about" rel="noreferrer">
+            About
           </Link>
         </div>
       </div>

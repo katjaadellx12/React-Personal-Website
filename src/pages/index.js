@@ -1,11 +1,13 @@
 import React from 'react'
-import { FaHeart, FaRegEnvelope, FaLinkedin, FaSpotify } from 'react-icons/fa'
+import { FaHeart, FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
 import { GoMarkGithub } from 'react-icons/go'
 import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import SEO from '../components/seo'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
+import ToggleDark from '../components/toggle'
+import styled from 'styled-components'
 
 const IndexPage = () => (
   <div>
@@ -29,7 +31,7 @@ const IndexPage = () => (
           ]}
         />
         <p>
-          Made with <FaHeart className="HeartIcon" /> at USC
+          Made with <FaHeart className="HeartIcon" /> in Los Angeles
         </p>
         <Link to="/resume">
           <button>Résumé</button>
@@ -65,3 +67,10 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+const Switch = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px 20px;
+`

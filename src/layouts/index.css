@@ -45,7 +45,7 @@ a {
   padding: 0;
   color: black;
   font-size: 60px;
-  line-height: 1.2;
+  font-weight: 800;
 }
 
 .Hero p {
@@ -173,12 +173,21 @@ a {
   color: white;
 }
 
+.dark a {
+  color: white;
+}
+
 .dark h1,
 .dark h2,
 .dark h3,
 .dark p,
 .dark div {
   color: white;
+}
+
+.dark hr {
+  color: white; /* old IE */
+  background-color: white; /* Modern Browsers */
 }
 
 .dark path {
@@ -189,8 +198,4 @@ a {
 .dark .Logos > a:nth-child(2) > svg > path,
 .dark .Logos > a:nth-child(3) > svg > path {
   fill: white;
-}
-
-.dark h6 {
-  color: #78e08f;
 }

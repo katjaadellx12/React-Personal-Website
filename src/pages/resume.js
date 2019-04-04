@@ -16,22 +16,22 @@ export default Resume
 const ResumeContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
 
   @media only screen and (max-width: 400px) {
-    transform: scale(0.4);
+    transform: scale(0.55);
     margin-top: -100px;
   }
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    transform: scale(0.5);
+    transform: scale(0.6);
     margin-top: -100px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
