@@ -19,13 +19,13 @@ const ResumeContainer = styled.div`
   margin-top: 70px;
 
   @media only screen and (max-width: 400px) {
-    transform: scale(0.55);
+    transform: scale(0.45);
     margin-top: -100px;
   }
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    transform: scale(0.6);
+    transform: scale(0.55);
     margin-top: -100px;
   }
 
