@@ -5,9 +5,8 @@ import Wave from '../components/wave'
 import ReactTyped from '../components/typed'
 import SEO from '../components/seo'
 import { Helmet } from 'react-helmet'
-import { Link } from 'react-router-dom'
-import ToggleDark from '../components/toggle'
 import styled from 'styled-components'
+import Popup from '../components/popup'
 
 const IndexPage = () => (
   <div>
@@ -33,9 +32,9 @@ const IndexPage = () => (
         <p>
           Made with <FaHeart className="HeartIcon" /> in Los Angeles
         </p>
-        <Link to="/resume">
-          <button>Résumé</button>
-        </Link>
+
+        <Popup />
+
         <div className="Logos">
           <a
             href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"

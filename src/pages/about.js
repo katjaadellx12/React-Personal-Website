@@ -8,8 +8,9 @@ export default function About() {
     <div>
       <SEO title="Pranav | About" description="Welcome to my world." />
       <ImageContainer>
-        <ProfileImage src={profileImg} alt="My very mediocre head shot" />
+        <Image src={profileImg} alt="My very mediocre head shot" />
       </ImageContainer>
+
       <FAQContainer>
         <Header>My Journey So Far...</Header>
         <Separator />
@@ -89,7 +90,7 @@ const Separator = styled.hr`
   background-color: rgba(255, 0, 0, 0.7); /* Modern Browsers */
 `
 
-const ProfileImage = styled.img`
+const Image = styled.img`
   height: 300px;
   width: 300px;
   border-radius: 200px;

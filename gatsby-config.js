@@ -22,8 +22,6 @@ module.exports = {
             let priority = 0.5
             if (path.match(/^\/$/)) {
               priority = 1.0
-            } else if (path.match(/resume/)) {
-              priority = 0.8
             } else if (path.match(/about/)) {
               priority = 0.6
             } else {
@@ -32,7 +30,7 @@ module.exports = {
             console.log('priority: ', priority.toFixed(1), '    path: ', path)
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
-              changefreq: `monthly`,
+              changefreq: `weekly`,
               priority,
             }
           }),
