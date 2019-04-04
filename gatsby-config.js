@@ -24,10 +24,10 @@ module.exports = {
               priority = 1.0
             } else if (path.match(/resume/)) {
               priority = 0.8
-            } else if (path.match(/blog/)) {
+            } else if (path.match(/about/)) {
               priority = 0.6
             } else {
-              priority = 0.2
+              priority = 0.1
             }
             console.log('priority: ', priority.toFixed(1), '    path: ', path)
             return {
