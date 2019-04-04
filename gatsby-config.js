@@ -23,7 +23,7 @@ module.exports = {
             if (path.match(/^\/$/)) {
               priority = 1.0
             } else if (path.match(/about/)) {
-              priority = 0.6
+              priority = 0.4
             } else {
               priority = 0.1
             }
