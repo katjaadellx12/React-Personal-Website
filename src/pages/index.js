@@ -21,10 +21,10 @@ const IndexPage = () => (
       <script type="application/ld+json">
         {`
           {
-            '@context': 'http://schema.org',
-            '@type': 'Person',
-            'url': 'https://pranav.tech/',
-            'name': title,
+            "@context": 'http://schema.org',
+            "@type": 'Person',
+            url: 'https://pranav.tech/',
+            name: title,
             sameAs: [
               'https://www.facebook.com/ambwanipranav',
               'https://www.linkedin.com/in/pranavambwani/'
@@ -35,10 +35,10 @@ const IndexPage = () => (
       <script type="application/ld+json">
         {`
           {
-            '@context': 'http://schema.org',
-            '@type': 'WebSite',
-            'url': 'https://pranav.tech/',
-            'name': title
+            "@context": 'http://schema.org',
+            "@type": 'WebSite',
+            url: 'https://pranav.tech/',
+            name: title
           }
         `}
       </script>
