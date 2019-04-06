@@ -21,13 +21,13 @@ const IndexPage = () => (
       <script type="application/ld+json">
         {`
           {
-            "@context": 'http://schema.org',
-            "@type": 'Person',
-            "url": 'https://pranav.tech/',
-            "name": title,
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "url": "https://pranav.tech/",
+            "name": "Pranav Ambwani",
             "sameAs": [
-              'https://www.facebook.com/ambwanipranav',
-              'https://www.linkedin.com/in/pranavambwani/'
+              "https://www.facebook.com/ambwanipranav",
+              "https://www.linkedin.com/in/pranavambwani/"
             ]
           }
         `}
@@ -35,10 +35,10 @@ const IndexPage = () => (
       <script type="application/ld+json">
         {`
           {
-            "@context": 'http://schema.org',
-            "@type": 'WebSite',
-            "url": 'https://pranav.tech/',
-            "name": title
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://pranav.tech/",
+            "name": "Pranav Ambwani"
           }
         `}
       </script>
