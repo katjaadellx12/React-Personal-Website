@@ -6,7 +6,13 @@ import SEO from '../components/seo'
 export default function About() {
   return (
     <div>
-      <SEO title="Pranav | About" description="Welcome to my world." />
+      <SEO
+        title="Pranav Ambwani"
+        description="Hi! I'm Pranav Ambwani. I was born and raised in New Delhi, India, and
+          moved to California in 2015. I studied Electrical Engineering at the
+          Viterbi School of Engineering, at the University of Southern
+          California, and am graduating Magna Cum Laude in May 2019"
+      />
       <ImageContainer>
         <Image src={profileImg} alt="My very mediocre head shot" />
       </ImageContainer>

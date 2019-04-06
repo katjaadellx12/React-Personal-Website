@@ -1,6 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+// Look at this link if you ever get stuck!!!!!!!!!!!
+// https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/src/components/SEO/SEO.jsx
+
 function SEO({ description, lang, keywords, title, image }) {
   return (
     <Helmet
