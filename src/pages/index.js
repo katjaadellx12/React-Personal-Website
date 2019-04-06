@@ -27,8 +27,8 @@ const IndexPage = () => (
             name: title,
             sameAs: [
               'https://www.facebook.com/ambwanipranav',
-              'https://www.linkedin.com/in/pranavambwani/',
-            ],
+              'https://www.linkedin.com/in/pranavambwani/'
+            ]
           }
         `}
       </script>
@@ -38,8 +38,7 @@ const IndexPage = () => (
             '@context': 'http://schema.org',
             '@type': 'WebSite',
             url: 'https://pranav.tech/',
-            name: title,
-           
+            name: title
           }
         `}
       </script>
