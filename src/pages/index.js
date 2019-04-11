@@ -8,6 +8,8 @@ import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
 import Popup from '../components/popup'
 
+// Type-checked Schema.org JSON-LD for React by Google: https://github.com/google/react-schemaorg
+
 const IndexPage = () => (
   <div>
     <SEO

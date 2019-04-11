@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import profileImg from '../images/me.jpg'
+import laptop from '../images/laptop.png'
+import tea from '../images/tea.png'
+import headphones from '../images/headphones.png'
+
 import SEO from '../components/seo'
 
 export default function About() {
@@ -13,10 +17,15 @@ export default function About() {
           Viterbi School of Engineering, at the University of Southern
           California, and am graduating Magna Cum Laude in May 2019"
       />
-      <ImageContainer>
-        <Image src={profileImg} alt="My very mediocre head shot" />
-      </ImageContainer>
 
+      <TopSpacing>
+        <Separator />
+        <BigHeader>About Myself...</BigHeader>
+        <Separator />
+      </TopSpacing>
+      <ProfileImageContainer>
+        <ProfileImage src={profileImg} alt="My very mediocre head shot" />
+      </ProfileImageContainer>
       <FAQContainer>
         <Header>My Journey So Far...</Header>
         <Separator />
@@ -69,15 +78,68 @@ export default function About() {
           technology transformation and galvanize businesses.
         </Description>
       </FAQContainer>
+      <LessTopSpacing>
+        <Separator />
+        <BigHeader>Daily Essentials...</BigHeader>
+        <Separator />
+      </LessTopSpacing>
+      <ImageContainer>
+        <Image src={laptop} alt="Daily essentials - laptop" />
+        <Image src={tea} alt="Daily essentials - tea" />
+        <Image src={headphones} alt="Daily essentials - headphones" />
+      </ImageContainer>
+
+      <BottomSpacing />
     </div>
   )
 }
 
+const TopSpacing = styled.div`
+  margin-top: 130px;
+  text-align: center;
+`
+
+const LessTopSpacing = styled.div`
+  margin-top: 40px;
+  text-align: center;
+`
+
+const BottomSpacing = styled.div`
+  margin-bottom: 30px;
+`
+
 const ImageContainer = styled.div`
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+`
+
+const Image = styled.img`
+  flex: 3;
+  height: 300px;
+  width: auto;
+
+  @media (max-width: 870px) {
+    height: 180px;
+  }
+
+  @media (max-width: 650px) {
+    height: 150px;
+  }
+
+  @media (max-width: 400px) {
+    height: 100px;
+  }
+`
+
+const ProfileImageContainer = styled.div`
   display: grid;
   grid-template-rows: repeat(1, 1fr);
   justify-content: center;
-  margin-top: 120px;
+  align-items: center;
+  margin-top: 70px;
 `
 
 const FAQContainer = styled.div`
@@ -92,19 +154,31 @@ const Separator = styled.hr`
   height: 3px;
   width: 100%;
   /* Set the hr color */
-  color: rgba(255, 0, 0, 0.7); /* old IE */
-  background-color: rgba(255, 0, 0, 0.7); /* Modern Browsers */
+  color: rgba(255, 0, 0, 0.6); /* old IE */
+  background-color: rgba(255, 0, 0, 0.6); /* Modern Browsers */
 `
 
-const Image = styled.img`
+const ProfileImage = styled.img`
   height: 300px;
   width: 300px;
   border-radius: 200px;
 `
 
+const BigHeader = styled.h1`
+  font-size: 40px;
+  font-weight: 800;
+  color: #141010;
+  animation: 1s infinite HeaderAnimation;
+
+  @media (max-width: 760px) {
+    font-size: 30px;
+  }
+`
+
 const Header = styled.h1`
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
+  color: #141010;
 
   @media (max-width: 760px) {
     font-size: 30px;
@@ -116,6 +190,7 @@ const Description = styled.p`
   margin-bottom: 20px;
   width: 700px;
   line-height: 1.5;
+  color: #141010;
 
   @media (max-width: 760px) {
     width: 400px;

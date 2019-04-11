@@ -44,7 +44,7 @@ export default class ReactTyped extends Component {
 }
 
 const TypeWrap = styled.div`
-  color: rgba(255, 0, 0, 0.7);
+  color: rgba(255, 0, 0, 0.8);
   font-size: 30px;
   line-height: 1.2;
   margin: 10px 0;
