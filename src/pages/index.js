@@ -56,7 +56,7 @@ const IndexPage = () => (
           ]}
         />
         <p>
-          Made with <FaHeart className="HeartIcon" /> in Los Angeles
+          Made with <FaHeart className="HeartIcon" /> in LA
         </p>
 
         <Popup />
