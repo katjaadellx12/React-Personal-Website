@@ -6,6 +6,7 @@
   height: 40px;
 }
 
+/* Hide the input checkbox */
 .switch input {
   opacity: 0;
   width: 0;
@@ -20,22 +21,27 @@
   right: 0;
   bottom: 0;
   -webkit-transition: 0.4s;
-  transition: 0.4s;
-  box-shadow: 0 0 1px #fd777f;
+  transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  box-shadow: 0 0 5px #fd777f;
 }
 
 /* Control size, etc. of the eclipse logo */
+/* Object (sun) for light mode configuration */
 .slider:before {
   position: absolute;
   content: '';
-  height: 40px;
-  width: 40px;
-  left: 0px;
-  bottom: 0px;
-  background-color: transparent;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  background-image: url('../images/eclipse.svg');
+  height: 35px;
+  width: 35px;
+  left: 3px;
+  bottom: 3px;
+  -webkit-transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  background-image: url('../images/sun.svg');
+}
+
+/* Object (moon) for dark mode configuration */
+input:checked + .slider:before {
+  background-image: url('../images/moon.svg');
 }
 
 input:checked + .slider {
@@ -43,7 +49,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 3px #2196f3;
+  box-shadow: 0 0 5px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -55,6 +61,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  background-color: #83d8ff;
 }
 
 .slider.round:before {

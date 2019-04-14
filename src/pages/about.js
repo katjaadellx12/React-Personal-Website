@@ -6,6 +6,7 @@ import tea from '../images/tea.png'
 import headphones from '../images/headphones.png'
 
 import SEO from '../components/seo'
+import Skills from '../components/skills'
 
 export default function About() {
   return (
@@ -88,7 +89,14 @@ export default function About() {
         <Image src={tea} alt="Daily essentials - tea" />
         <Image src={headphones} alt="Daily essentials - headphones" />
       </ImageContainer>
-
+      <TopSpacing>
+        <Separator />
+        <BigHeader>Skills...</BigHeader>
+        <Separator />
+      </TopSpacing>
+      <SkillsContainer>
+        <Skills />
+      </SkillsContainer>
       <BottomSpacing />
     </div>
   )
@@ -162,6 +170,9 @@ const ProfileImage = styled.img`
   height: 300px;
   width: 300px;
   border-radius: 200px;
+  -webkit-animation: shadow-drop-2-center 2s
+    cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+  animation: shadow-drop-2-center 2s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
 `
 
 const BigHeader = styled.h1`
@@ -200,5 +211,33 @@ const Description = styled.p`
   @media (max-width: 400px) {
     width: 300px;
     font-size: 20px;
+  }
+`
+const SkillsContainer = styled.div`
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+
+  @media (max-width: 800px) {
+    transform: scale(0.85);
+  }
+
+  @media (max-width: 700px) {
+    transform: scale(0.7);
+  }
+
+  @media (max-width: 590px) {
+    margin-top: 0px;
+    transform: scale(0.6);
+  }
+
+  @media (max-width: 500px) {
+    transform: scale(0.5);
+  }
+
+  @media (max-width: 500px) {
+    transform: scale(0.45);
   }
 `
