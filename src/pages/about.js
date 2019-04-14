@@ -113,8 +113,10 @@ const ImageContainer = styled.div`
   justify-content: space-between;
   justify-items: center;
   text-align: center;
-  -webkit-animation: vibrate-1 1s linear infinite both;
-  animation: vibrate-1 1s linear infinite both;
+  -webkit-animation: slide-in-elliptic-top-fwd 0.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
 `
 
 const Image = styled.img`
