@@ -63,7 +63,7 @@ const IndexPage = () => (
 
         <div className="Logos">
           <a
-            href="mailto:ambwani@usc.edu?Subject=Hi%20Pranav!"
+            href="mailto:pranav@pranav.tech?Subject=Hi%20Pranav!"
             aria-label="link-to-email"
           >
             <FaRegEnvelope />

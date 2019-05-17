@@ -15,7 +15,7 @@ export default function About() {
         description="Hi! I'm Pranav Ambwani. I was born and raised in New Delhi, India, and
           moved to California in 2015. I studied Electrical Engineering at the
           Viterbi School of Engineering, at the University of Southern
-          California, and am graduating Magna Cum Laude in May 2019"
+          California, and graduated Magna Cum Laude (2nd highest honors) in May 2019"
       />
 
       <TopSpacing>
