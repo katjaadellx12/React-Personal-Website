@@ -74,16 +74,18 @@ export default function About() {
           innovative product management/software development role to enable
           technology transformation and galvanize businesses.
         </Description>
-        <Header>Elevator Pitch...</Header>
-        <Separator />
-        <LessTopSpacing />
-        <ImageContainer>
-          <Image
-            src={elevatorPitch}
-            alt="My elevator pitch written in code, specifically JavaScript."
-          />
-        </ImageContainer>
-        <BottomSpacing />
+        <Elevator>
+          <Header>Elevator Pitch...</Header>
+          <Separator />
+          <LessTopSpacing />
+          <ImageContainer>
+            <Image
+              src={elevatorPitch}
+              alt="My elevator pitch written in code, specifically JavaScript."
+            />
+          </ImageContainer>
+          <BottomSpacing />
+        </Elevator>
         <Header>Drop me a line!</Header>
         <Separator />
         <LessTopSpacing />
@@ -126,9 +128,11 @@ const Image = styled.img`
   @media (max-width: 650px) {
     height: 300px;
   }
+`
 
-  @media (max-width: 400px) {
-    height: 100px;
+const Elevator = styled.div`
+  @media (max-width: 600px) {
+    display: none;
   }
 `
 
