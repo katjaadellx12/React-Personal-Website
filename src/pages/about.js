@@ -21,7 +21,7 @@ export default function About() {
         <Separator />
       </TopSpacing>
       <ProfileImageContainer>
-        <ProfileImage src={profileImg} alt="My very mediocre head shot" />
+        <ProfileImage src={profileImg} alt="My very mediocre head shot." />
       </ProfileImageContainer>
       <FAQContainer>
         <Header>My Journey So Far...</Header>
