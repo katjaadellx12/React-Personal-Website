@@ -128,7 +128,7 @@ const Image = styled.img`
   }
 
   @media (max-width: 400px) {
-    height: 200px;
+    height: 100px;
   }
 `
 

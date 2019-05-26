@@ -44,3 +44,9 @@ button:hover {
 ::placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 400px) {
+  input {
+    width: 300px;
+  }
+}
