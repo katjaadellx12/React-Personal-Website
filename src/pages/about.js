@@ -1,11 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import profileImg from '../images/me.jpg'
-import laptop from '../images/laptop.png'
-import tea from '../images/tea.png'
-import headphones from '../images/headphones.png'
-
+import elevatorPitch from '../images/carbon.svg'
 import SEO from '../components/seo'
+import Form from '../components/form'
 
 export default function About() {
   return (
@@ -17,7 +15,6 @@ export default function About() {
           Viterbi School of Engineering, at the University of Southern
           California, and graduated Magna Cum Laude in May 2019"
       />
-
       <TopSpacing>
         <Separator />
         <BigHeader>About Myself...</BigHeader>
@@ -77,17 +74,21 @@ export default function About() {
           innovative product management/software development role to enable
           technology transformation and galvanize businesses.
         </Description>
+        <Header>Elevator Pitch...</Header>
+        <Separator />
+        <LessTopSpacing />
+        <ImageContainer>
+          <Image
+            src={elevatorPitch}
+            alt="My elevator pitch written in code, specifically JavaScript."
+          />
+        </ImageContainer>
+        <BottomSpacing />
+        <Header>Drop me a line!</Header>
+        <Separator />
+        <LessTopSpacing />
+        <Form />
       </FAQContainer>
-      <LessTopSpacing>
-        <Separator />
-        <BigHeader>Daily Essentials...</BigHeader>
-        <Separator />
-      </LessTopSpacing>
-      <ImageContainer>
-        <Image src={laptop} alt="Daily essentials - laptop" />
-        <Image src={tea} alt="Daily essentials - tea" />
-        <Image src={headphones} alt="Daily essentials - headphones" />
-      </ImageContainer>
       <BottomSpacing />
     </div>
   )
@@ -108,32 +109,26 @@ const BottomSpacing = styled.div`
 `
 
 const ImageContainer = styled.div`
-  display: flex;
-  margin-top: 100px;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   justify-items: center;
   text-align: center;
-  -webkit-animation: slide-in-elliptic-top-fwd 0.7s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
 `
 
 const Image = styled.img`
-  flex: 3;
-  height: 300px;
-  width: auto;
+  flex: 1;
+  height: 500px;
 
   @media (max-width: 870px) {
-    height: 180px;
+    height: 400px;
   }
 
   @media (max-width: 650px) {
-    height: 150px;
+    height: 300px;
   }
 
   @media (max-width: 400px) {
-    height: 100px;
+    height: 200px;
   }
 `
 

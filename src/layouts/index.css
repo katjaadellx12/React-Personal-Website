@@ -221,6 +221,30 @@ a {
   color: #ffa7c4;
 }
 
+.dark ::-webkit-input-placeholder {
+  /* Edge */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark ::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark input {
+  border: 1px solid white;
+  color: white;
+}
+
+.dark button {
+  background: #ffa7c4;
+  color: #282c34;
+}
+
 /* ----------------------------------------------
  * Animista animations
  * http://animista.net
