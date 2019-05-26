@@ -29,7 +29,7 @@ const Form = () => {
           id="message"
           type="text"
           name="text"
-          placeholder="I wanted to get in touch regarding..."
+          placeholder="Hey, Pranav..."
           required
         />
       </label>
