@@ -54,7 +54,11 @@ export default function About() {
         <Description>
           I am an energetic product manager and a proficient full-stack
           developer with a track record of being scrappy and getting things
-          done.
+          done. Currently, I am working as a{' '}
+          <i>
+            <b>Business System Analyst for Mazda</b>
+          </i>{' '}
+          in Irvine, CA.
         </Description>
         <Description>
           I can really put myself into the mindset of a persona and get into
