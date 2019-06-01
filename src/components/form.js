@@ -3,7 +3,13 @@ import './form.css'
 
 const Form = () => {
   return (
-    <form class="contact" name="contact" method="POST" data-netlify="true">
+    <form
+      class="contact"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      action="/success"
+    >
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
@@ -36,9 +42,7 @@ const Form = () => {
           <option value="other">Other</option>
         </select>
       </label>
-      <button type="submit" aria-label="Contact Pranav">
-        Contact
-      </button>
+      <button type="submit">Contact</button>
     </form>
   )
 }
