@@ -6,10 +6,13 @@ const Form = () => {
     <form
       class="contact"
       name="contact"
-      method="POST"
+      method="post"
+      action="/success/"
       data-netlify="true"
-      action="/success"
+      data-netlify-honeypot="bot-field"
     >
+      {/* You still need to add the hidden input with the form name to your JSX form */}
+      <input type="hidden" name="form-name" value="contact" />
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
