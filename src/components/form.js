@@ -3,13 +3,7 @@ import './form.css'
 
 const Form = () => {
   return (
-    <form
-      class="contact"
-      name="contact"
-      action="/success/"
-      method="POST"
-      data-netlify="true"
-    >
+    <form class="contact" name="contact" method="POST" data-netlify="true">
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
