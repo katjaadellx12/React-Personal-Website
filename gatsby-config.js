@@ -24,7 +24,7 @@ module.exports = {
             } else if (path.match(/about/)) {
               priority = 0.8
             } else {
-              priority = 0
+              priority = 0.1
             }
             console.log('priority: ', priority.toFixed(1), '    path: ', path)
             return {
