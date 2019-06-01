@@ -9,7 +9,6 @@ const Form = () => {
       action="/success"
       method="POST"
       data-netlify="true"
-      netlify-honeypot="bot-field"
     >
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
