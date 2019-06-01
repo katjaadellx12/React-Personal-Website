@@ -169,7 +169,7 @@ a {
   }
 
   .Hero p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .Hero button {
@@ -244,4 +244,85 @@ a {
 .dark button {
   background: #ffa7c4;
   color: #282c34;
+}
+
+/* Animations for success page */
+@keyframes scaleAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes drawCircle {
+  0% {
+    stroke-dashoffset: 151px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes drawCheck {
+  0% {
+    stroke-dashoffset: 36px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#successAnimationCircle {
+  stroke-dasharray: 151px 151px;
+  stroke: #55efc4;
+}
+
+#successAnimationCheck {
+  stroke-dasharray: 36px 36px;
+  stroke: #55efc4;
+}
+
+#successAnimationResult {
+  fill: #55efc4;
+  opacity: 0;
+}
+
+#successAnimation.animated {
+  animation: 1s ease-out 0s 1 both scaleAnimation;
+}
+
+#successAnimationCircle {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCircle,
+    0.3s linear 0.9s 1 both fadeOut;
+}
+
+#successAnimationCheck {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCheck,
+    0.3s linear 0.9s 1 both fadeOut;
+}
+
+#successAnimationResult {
+  animation: 0.3s linear 0.9s both fadeIn;
 }

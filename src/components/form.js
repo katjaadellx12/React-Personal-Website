@@ -3,7 +3,17 @@ import './form.css'
 
 const Form = () => {
   return (
-    <form class="contact" name="contact" method="POST" data-netlify="true">
+    <form
+      class="contact"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <label className="hidden">
+        Don’t fill this out if you're human: <input name="bot-field" />
+      </label>
+
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
@@ -31,9 +41,9 @@ const Form = () => {
       </label>
       <label>
         <select name="role[]" multiple>
-          <option value="leader">Student</option>
-          <option value="follower">Recruiter</option>
-          <option value="follower">Other</option>
+          <option value="student">Student</option>
+          <option value="recruiter">Recruiter</option>
+          <option value="other">Other</option>
         </select>
       </label>
       <button type="submit" aria-label="Contact Pranav">

@@ -50,7 +50,7 @@ const TypeWrap = styled.div`
   margin: 10px 0;
   font-weight: 600;
 
-  @media (max-width: 870px) {
+  @media (max-width: 640px) {
     font-size: 28px;
   }
 `
