@@ -32,10 +32,6 @@ button:hover {
   cursor: pointer;
 }
 
-.hidden {
-  display: none;
-}
-
 ::-webkit-input-placeholder {
   /* Edge */
   color: rgba(0, 0, 0, 0.5);

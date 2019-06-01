@@ -11,10 +11,6 @@ const Form = () => {
       data-netlify="true"
       netlify-honeypot="bot-field"
     >
-      <label className="hidden">
-        Don’t fill this out if you're human: <input name="bot-field" />
-      </label>
-
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
