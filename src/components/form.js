@@ -3,11 +3,7 @@ import './form.css'
 
 const Form = () => {
   return (
-    <form
-      class="contact"
-      action="https://getform.io/f/a12f4c75-8581-4a10-8019-8f801daf4c22"
-      method="POST"
-    >
+    <form class="contact" name="contact" method="POST" data-netlify="true">
       <label>
         <input id="name" type="text" name="name" placeholder="Name" required />
       </label>
@@ -32,6 +28,13 @@ const Form = () => {
           placeholder="Hey, Pranav..."
           required
         />
+      </label>
+      <label>
+        <select name="role[]" multiple>
+          <option value="leader">Student</option>
+          <option value="follower">Recruiter</option>
+          <option value="follower">Other</option>
+        </select>
       </label>
       <button type="submit" aria-label="Contact Pranav">
         Contact

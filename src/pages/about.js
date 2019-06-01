@@ -78,18 +78,6 @@ export default function About() {
           innovative product management/software development role to enable
           technology transformation and galvanize businesses.
         </Description>
-        <Elevator>
-          <Header>Elevator Pitch...</Header>
-          <Separator />
-          <LessTopSpacing />
-          <ImageContainer>
-            <Image
-              src={elevatorPitch}
-              alt="My elevator pitch written in code, specifically JavaScript."
-            />
-          </ImageContainer>
-          <BottomSpacing />
-        </Elevator>
         <Header>Drop me a line!</Header>
         <Separator />
         <LessTopSpacing />
@@ -134,12 +122,6 @@ const Image = styled.img`
   }
 `
 
-const Elevator = styled.div`
-  @media (max-width: 600px) {
-    display: none;
-  }
-`
-
 const ProfileImageContainer = styled.div`
   display: grid;
   grid-template-rows: repeat(1, 1fr);
@@ -165,12 +147,9 @@ const Separator = styled.hr`
 `
 
 const ProfileImage = styled.img`
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 200px;
-  -webkit-animation: shadow-drop-2-center 2s
-    cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
-  animation: shadow-drop-2-center 2s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
 `
 
 const BigHeader = styled.h1`
